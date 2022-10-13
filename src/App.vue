@@ -55,19 +55,19 @@ function render() {
   <!-- <div class="flex"> -->
     <div class="w-min-[400px] space-y-4 fixed left-0 top-0">
       <div class="flex">
-        <div class="w-[100px]">宽度</div>
+        <div class="w-[100px]">width</div>
         <input v-model="config.width" />
       </div>
       <div class="flex">
-        <div class="w-[100px]">高度</div>
+        <div class="w-[100px]">height</div>
         <input v-model="config.height" />
       </div>
       <div class="flex">
-        <div class="w-[100px]">投影位置</div>
+        <div class="w-[100px]">proj center</div>
         <input v-model="config.center" />
       </div>
       <div class="flex">
-        <div class="w-[100px]">缩放比例</div>
+        <div class="w-[100px]">scale</div>
         <input v-model="config.scale" />
       </div>
       <div class="flex">
@@ -77,7 +77,7 @@ function render() {
     </div>
     <div id="map" class="flex justify-center items-center mx-[400px]"></div>
     <div class="w-[400px] fixed top-0 right-0">
-      output
+      outPut
       <textarea class="w-full min-h-[500px]" readonly :value="output" />
     </div>
   <!-- </div> -->
