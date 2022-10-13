@@ -99,3 +99,8 @@ button:focus-visible {
 #map{
   border: solid 1px #000;
 }
+.output{
+  position: fixed;
+  right: 0;
+  top:0;
+}
